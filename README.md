@@ -1,6 +1,7 @@
 # Huawei DIGIX — Music-App User Retention
 
 Goal: Predict whether a user will be active at 1, 2, 3, 7, 14, 30 days in the future.
+
 Approach: Train six binary LightGBM models (one per horizon) with 5-fold CV, using last-30-day device activity and basic user attributes. Average fold probabilities and export a single submission.csv.
 
 ## Summary
