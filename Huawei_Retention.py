@@ -42,8 +42,8 @@ warnings.filterwarnings('ignore')
 
 device = pd.read_csv('data/1_device_active.csv')
 user = pd.read_csv('data/2_user_info.csv', sep='|')
-music = pd.read_csv('data/3_music_info.csv', sep='|', error_bad_lines=False)
-behaviour = pd.read_csv('data/4_user_behavior.csv', sep='|')
+#music = pd.read_csv('data/3_music_info.csv', sep='|', error_bad_lines=False)
+#behaviour = pd.read_csv('data/4_user_behavior.csv', sep='|')
 artist = pd.read_csv('data/5_artist_info.csv', sep='|')
 device = device.drop(columns=['days'])
 
